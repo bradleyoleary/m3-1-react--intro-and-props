@@ -1,0 +1,47 @@
+.chat-message-sent,
+.chat-message-received {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.avatar {
+    height: 40px;
+    width: auto;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.text-box {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 15px;
+}
+
+.text-body {
+    padding: 14px;
+    background: #e5e5ea;
+    color: black;
+    border-radius: 15px;
+}
+
+.received-name-box {
+    margin: 10px 0px 10px 75px;
+    padding: 2px;
+    color: grey;
+}
+
+#sender-text-box {
+  margin: 25px 10px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sender-text-body {
+    padding: 14px;
+    color: #fff;
+    background: #1185f7;
+    border-radius: 15px;
+}
